@@ -1,0 +1,29 @@
+﻿@model ViniSandbox.Models.analysis
+
+@{
+    ViewBag.Title = "_Summary";
+}
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_InfoGrid", (object)ViewBag.Infos)
+</div>
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_ResourceGrid", (object)ViewBag.Resources)
+</div>
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_SectionGrid", (object)ViewBag.Section)
+</div>
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_MiscellaneousGrid", (object)ViewBag.Miscellaneous)
+</div>
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_ExportsGrid", (object)ViewBag.Exports)
+</div>
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_ImportsGrid", (object)ViewBag.Imports)
+</div>

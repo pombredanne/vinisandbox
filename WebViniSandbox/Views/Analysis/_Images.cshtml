@@ -1,0 +1,10 @@
+﻿@using MvcContrib.UI.Grid;
+@using MvcContrib.Pagination;
+@using MvcContrib.Shp.UI.Themed.Pager;
+
+@model IEnumerable<ViniSandbox.Models.result_file>
+
+@foreach (var image in Model)
+{
+    <a class="fancybox" rel="group" href="/FileResult/Index/@image.id"><img src="/FileResult/Index/@image.id" width="60" height="60" alt="@image.program_name" /></a>    
+}

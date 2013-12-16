@@ -1,0 +1,6 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxPoco\bin\Debug\ViniSandboxPoco.dll.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxPoco\bin\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxPoco\bin\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxPoco\obj\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxPoco\obj\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxPoco\obj\Debug\ViniSandboxPoco.csprojResolveAssemblyReference.cache

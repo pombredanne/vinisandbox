@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="vinisandboxModelStoreContainer" CdmEntityContainer="vinisandboxEntities">
+    <EntitySetMapping Name="antivirus">
+      <EntityTypeMapping TypeName="vinisandboxModel.antivirus">
+        <MappingFragment StoreEntitySet="antivirus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="antivirus_scan">
+      <EntityTypeMapping TypeName="vinisandboxModel.antivirus_scan">
+        <MappingFragment StoreEntitySet="antivirus_scan">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="av_version" ColumnName="av_version" />
+          <ScalarProperty Name="av_last_update" ColumnName="av_last_update" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="comment">
+      <EntityTypeMapping TypeName="vinisandboxModel.comment">
+        <MappingFragment StoreEntitySet="comment">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="source" ColumnName="source" />
+          <ScalarProperty Name="comment1" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dns">
+      <EntityTypeMapping TypeName="vinisandboxModel.dns">
+        <MappingFragment StoreEntitySet="dns">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="domain" ColumnName="domain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="event">
+      <EntityTypeMapping TypeName="vinisandboxModel.event">
+        <MappingFragment StoreEntitySet="event">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="process_name" ColumnName="process_name" />
+          <ScalarProperty Name="time_span" ColumnName="time_span" />
+          <ScalarProperty Name="operation" ColumnName="operation" />
+          <ScalarProperty Name="path" ColumnName="path" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="detail" ColumnName="detail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="export_function">
+      <EntityTypeMapping TypeName="vinisandboxModel.export_function">
+        <MappingFragment StoreEntitySet="export_function">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="file">
+      <EntityTypeMapping TypeName="vinisandboxModel.file">
+        <MappingFragment StoreEntitySet="file">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="source" ColumnName="source" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="file_properties">
+      <EntityTypeMapping TypeName="vinisandboxModel.file_properties">
+        <MappingFragment StoreEntitySet="file_properties">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="file" ColumnName="file" />
+          <ScalarProperty Name="file_type" ColumnName="file_type" />
+          <ScalarProperty Name="architecture" ColumnName="architecture" />
+          <ScalarProperty Name="md5" ColumnName="md5" />
+          <ScalarProperty Name="sha1" ColumnName="sha1" />
+          <ScalarProperty Name="ssdeep" ColumnName="ssdeep" />
+          <ScalarProperty Name="build_date" ColumnName="build_date" />
+          <ScalarProperty Name="language" ColumnName="language" />
+          <ScalarProperty Name="packer" ColumnName="packer" />
+          <ScalarProperty Name="entry_point" ColumnName="entry_point" />
+          <ScalarProperty Name="malicious" ColumnName="malicious" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="import_function">
+      <EntityTypeMapping TypeName="vinisandboxModel.import_function">
+        <MappingFragment StoreEntitySet="import_function">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="offset" ColumnName="offset" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="import_library">
+      <EntityTypeMapping TypeName="vinisandboxModel.import_library">
+        <MappingFragment StoreEntitySet="import_library">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="miscellaneous">
+      <EntityTypeMapping TypeName="vinisandboxModel.miscellaneous">
+        <MappingFragment StoreEntitySet="miscellaneous">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="resource">
+      <EntityTypeMapping TypeName="vinisandboxModel.resource">
+        <MappingFragment StoreEntitySet="resource">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="language" ColumnName="language" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="result_file">
+      <EntityTypeMapping TypeName="vinisandboxModel.result_file">
+        <MappingFragment StoreEntitySet="result_file">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="program_name" ColumnName="program_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="section">
+      <EntityTypeMapping TypeName="vinisandboxModel.section">
+        <MappingFragment StoreEntitySet="section">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="virtual_address" ColumnName="virtual_address" />
+          <ScalarProperty Name="virtual_size" ColumnName="virtual_size" />
+          <ScalarProperty Name="raw_size" ColumnName="raw_size" />
+          <ScalarProperty Name="md5" ColumnName="md5" />
+          <ScalarProperty Name="suspicious" ColumnName="suspicious" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="string">
+      <EntityTypeMapping TypeName="vinisandboxModel.string">
+        <MappingFragment StoreEntitySet="string">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="string1" ColumnName="string" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="fk_antivirus_scan_antivirus" TypeName="vinisandboxModel.fk_antivirus_scan_antivirus" StoreEntitySet="antivirus_scan">
+      <EndProperty Name="antivirus">
+        <ScalarProperty Name="id" ColumnName="id_antivirus" />
+      </EndProperty>
+      <EndProperty Name="antivirus_scan">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_antivirus" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_antivirus_scan_file_properties" TypeName="vinisandboxModel.fk_antivirus_scan_file_properties" StoreEntitySet="antivirus_scan">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="antivirus_scan">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_comment_file_properties" TypeName="vinisandboxModel.fk_comment_file_properties" StoreEntitySet="comment">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="comment">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_dns_file_properties" TypeName="vinisandboxModel.fk_dns_file_properties" StoreEntitySet="dns">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="dns">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_event_file_properties" TypeName="vinisandboxModel.fk_event_file_properties" StoreEntitySet="event">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="event">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_export_function_file_properties" TypeName="vinisandboxModel.fk_export_function_file_properties" StoreEntitySet="export_function">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="file_properties_id" />
+      </EndProperty>
+      <EndProperty Name="export_function">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="file_properties_id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_file_file_properties" TypeName="vinisandboxModel.fk_file_file_properties" StoreEntitySet="file">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="file">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_miscellaneous_file_properties" TypeName="vinisandboxModel.fk_miscellaneous_file_properties" StoreEntitySet="miscellaneous">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="miscellaneous">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_resource_file_properties" TypeName="vinisandboxModel.fk_resource_file_properties" StoreEntitySet="resource">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="resource">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_result_file_file_properties" TypeName="vinisandboxModel.fk_result_file_file_properties" StoreEntitySet="result_file">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="result_file">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_section_file_properties" TypeName="vinisandboxModel.fk_section_file_properties" StoreEntitySet="section">
+      <EndProperty Name="file_properties">
+        <ScalarProperty Name="id" ColumnName="id_file_properties" />
+      </EndProperty>
+      <EndProperty Name="section">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="id_file_properties" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="fk_import_library" TypeName="vinisandboxModel.fk_import_library" StoreEntitySet="import_function">
+      <EndProperty Name="import_library">
+        <ScalarProperty Name="id" ColumnName="import_library_id" />
+      </EndProperty>
+      <EndProperty Name="import_function">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+      <Condition ColumnName="import_library_id" IsNull="false" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

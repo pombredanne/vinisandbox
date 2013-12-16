@@ -1,0 +1,14 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\bin\Debug\FakeDnsServer.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\bin\Debug\FakeDnsServer.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\bin\Debug\FakeDnsServer.exe.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\bin\Debug\ARSoft.Tools.Net.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\bin\Debug\ARSoft.Tools.Net.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.frmMain.resources
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\FakeDnsServer\bin\Debug\FakeDnsServer.exe.config
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.exe
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\FakeDnsServer\obj\x86\Debug\FakeDnsServer.pdb

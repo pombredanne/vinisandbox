@@ -1,0 +1,132 @@
+<ViniSandbox>
+	<CheckFrequence>10000</CheckFrequence>
+	<TempFolder>C:\Users\Vinicius\AppData\Local\Temp\ViniSandbox</TempFolder>
+	<StaticAnalysis>
+		<Steps>
+			<Step>
+				<Path>cmd.exe</Path>
+				<Args>/c Tools\AnalyzePe-Master\AnalyzePE.py -v {file} > Log\AnalyzePe.txt</Args>
+				<LogPath>Log\AnalyzePe.txt</LogPath>							
+				<LogHandlerAssembly>DefaultLogHandler.dll</LogHandlerAssembly>							
+				<LogHandlerClass>ViniSandbox.PEAnalyzerLogHanlder</LogHandlerClass>
+				<LogAll>false</LogAll>
+				<LogAllName></LogAllName>
+				<WaitExit>0</WaitExit>
+				<WaitInit>0</WaitInit>
+			</Step>
+			<Step>
+				<Path>Tools\VirusTotal.NET\VirusTotal.NET.exe</Path>
+				<Args>\f {file} \out Log\VirusTotal.NET.txt</Args>
+				<LogPath>Log\VirusTotal.NET.txt</LogPath>								
+				<LogHandlerAssembly>DefaultLogHandler.dll</LogHandlerAssembly>								
+				<LogHandlerClass>ViniSandbox.VirusTotalLogHandler</LogHandlerClass>
+				<LogAll>false</LogAll>
+				<LogAllName></LogAllName>
+				<WaitExit>0</WaitExit>
+				<WaitInit>0</WaitInit>
+			</Step>
+			<Step>
+				<Path>Tools\FileDetails\FileDetails.exe</Path>
+				<Args>\f {file} \out Log\FileDetails.txt</Args>
+				<LogPath>Log\FileDetails.txt</LogPath>								
+				<LogHandlerAssembly>DefaultLogHandler.dll</LogHandlerAssembly>								
+				<LogHandlerClass>ViniSandbox.FileDetailsLogHandler</LogHandlerClass>
+				<LogAll>false</LogAll>
+				<LogAllName></LogAllName>
+				<WaitExit>0</WaitExit>
+				<WaitInit>0</WaitInit>
+			</Step>
+		</Steps>
+	</StaticAnalysis>
+	<DynamicAnalysis>
+		<Virtualization>
+			<SnapshotName>Sandbox</SnapshotName>
+			<VMName>Windows 7 - Sandbox</VMName>
+			<VMMode>gui</VMMode>
+			<VMControlAssembly>VMControl.dll</VMControlAssembly>						
+			<VMControlClass>ViniSandbox.VBoxControl</VMControlClass>
+			<Username>usuario</Username>
+			<Password></Password>
+			<Domain></Domain>
+			<ViniSandboxToolsPath>C:\Files\Tools\ViniSandboxTools\ViniSandboxTools.exe</ViniSandboxToolsPath>
+			<TempPath>C:\Users\Usuario\AppData\Local\Temp\Apps</TempPath>
+		</Virtualization>
+		<PreExecution>
+			<Steps>
+				<Step>
+					<Path>C:\Files\Tools\FakeDnsServer\FakeDnsServer.exe</Path>
+					<Args>\i 192.168.100.2 \l C:\Files\Logs\FakeDnsServer.txt</Args>
+					<LogPath>C:\Files\Logs\FakeDnsServer.txt</LogPath>													
+					<LogHandlerAssembly>DefaultLogHandler.dll</LogHandlerAssembly>				
+					<LogHandlerClass>ViniSandbox.FakeDnsServerLogHandler</LogHandlerClass>
+					<LogAll>false</LogAll>
+					<LogAllName></LogAllName>
+					<WaitExit>130000</WaitExit>
+					<WaitInit>0</WaitInit>
+				</Step>
+				<Step>
+					<Path>C:\Files\Tools\ProcessMonitor\Procmon.exe</Path>
+					<Args>/AcceptEula /Backingfile C:\Files\Logs\log.pml /LoadConfig C:\Files\Tools\ProcessMonitor\ProcmonConfiguration.pmc /Quiet</Args>
+					<LogPath></LogPath>													
+					<LogHandlerAssembly></LogHandlerAssembly>				
+					<LogHandlerClass></LogHandlerClass>
+					<LogAll>false</LogAll>
+					<LogAllName></LogAllName>
+					<WaitExit>0</WaitExit>
+					<WaitInit>0</WaitInit>
+				</Step>
+				<Step>
+					<Path>C:\Files\Tools\ViniSandboxTools\ViniSandboxTools.exe</Path>
+					<Args>\ss C:\Files\Logs\ScreenShot01.jpeg</Args>
+					<LogPath>C:\Files\Logs\ScreenShot01.jpeg</LogPath>													
+					<LogHandlerAssembly></LogHandlerAssembly>				
+					<LogHandlerClass></LogHandlerClass>
+					<LogAll>true</LogAll>
+					<LogAllName>ScreenShot01.jpeg</LogAllName>
+					<WaitExit>0</WaitExit>
+					<WaitInit>10000</WaitInit>
+				</Step>
+				<Step>
+					<Path>C:\Files\Tools\ViniSandboxTools\ViniSandboxTools.exe</Path>
+					<Args>\ss C:\Files\Logs\ScreenShot02.jpeg</Args>
+					<LogPath>C:\Files\Logs\ScreenShot02.jpeg</LogPath>													
+					<LogHandlerAssembly></LogHandlerAssembly>				
+					<LogHandlerClass></LogHandlerClass>
+					<LogAll>true</LogAll>
+					<LogAllName>ScreenShot02.jpeg</LogAllName>
+					<WaitExit>0</WaitExit>
+					<WaitInit>50000</WaitInit>
+				</Step>
+				<Step>
+					<Path>C:\Files\Tools\ViniSandboxTools\ViniSandboxTools.exe</Path>
+					<Args>\ss C:\Files\Logs\ScreenShot03.jpeg</Args>
+					<LogPath>C:\Files\Logs\ScreenShot03.jpeg</LogPath>													
+					<LogHandlerAssembly></LogHandlerAssembly>				
+					<LogHandlerClass></LogHandlerClass>
+					<LogAll>true</LogAll>
+					<LogAllName>ScreenShot03.jpeg</LogAllName>
+					<WaitExit>0</WaitExit>
+					<WaitInit>100000</WaitInit>
+				</Step>
+			</Steps>
+		</PreExecution>
+		<Execution>
+			<Time>120000</Time>
+		</Execution>
+		<PosExecution>
+			<Steps>
+				<Step>
+					<Path>C:\Files\Tools\ProcessMonitor\ProcMonLogGerator.exe</Path>
+					<Args>C:\Files\Logs\log.pml C:\Files\Logs\procmonlog.xml</Args>
+					<LogPath>C:\Files\Logs\procmonlog.xml</LogPath>													
+					<LogHandlerAssembly>DefaultLogHandler.dll</LogHandlerAssembly>				
+					<LogHandlerClass>ViniSandbox.ProcessMonitorLogHandler</LogHandlerClass>
+					<LogAll>false</LogAll>
+					<LogAllName></LogAllName>
+					<WaitExit>180000</WaitExit>
+					<WaitInit>0</WaitInit>
+				</Step>
+			</Steps>
+		</PosExecution>
+	</DynamicAnalysis>
+</ViniSandbox>

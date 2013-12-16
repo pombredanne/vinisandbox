@@ -1,0 +1,10 @@
+crl.microsoft.com
+ctldl.windowsupdate.com
+.+ownload.windowsupdate.com
+download.microsoft.com
+www.update.microsoft.com
+update.microsoft.com
+watson.microsoft.com
+.+in-addr.arpa
+.+ip6.arpa
+teredo.ipv6.microsoft.com

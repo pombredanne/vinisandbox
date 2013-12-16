@@ -1,0 +1,8 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\obj\x86\Debug\MutexMonitor.Properties.Resources.resources
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\obj\x86\Debug\MutexMonitor.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\bin\Debug\MutexMonitor.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\bin\Debug\MutexMonitor.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\obj\x86\Debug\MutexMonitor.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\obj\x86\Debug\MutexMonitor.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\bin\Debug\EasyHook.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\obj\x86\Debug\MutexMonitor.csprojResolveAssemblyReference.cache

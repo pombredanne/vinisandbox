@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViniSandbox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<StaticAnalysis>
+	<Steps>
+		<Step>
+			<Path>C:\tools\tool1.exe</Path>
+			<Args></Args>
+			<LogPath></LogPath>
+			<LogHandler></LogHandler>
+			<LogAll>false</LogAll>
+			<LogAllName></LogAllName>
+			<WaitExit>0</WaitExit>
+			<WaitInit>0</WaitInit>
+		</Step>
+	</Steps>
+</StaticAnalysis>
+<DynamicAnalysis>
+	<Virtualization>
+		<Snapshot></Snapshot>
+		<VMName></VMName>
+		<VMControl></VMControl>
+		<Username></Username>
+		<Password></Password>
+		<Domain></Domain>
+	</Virtualization>
+	<PreExecution>
+		<Step>
+			<Path></Path>
+			<Args></Args>
+			<LogPath></LogPath>
+			<LogHandler></LogHandler>
+			<LogAll>true</LogAll>
+			<LogAllName></LogAllName>
+			<WaitExit>0</WaitExit>
+			<WaitInit>0</WaitInit>
+		</Step>
+	</PreExecution>
+	<Execution>
+		<Time>0</Time>
+	</Execution>
+	<PosExecution>
+		<Step>
+			<Path></Path>
+			<Args></Args>
+			<LogPath></LogPath>
+			<LogHandler></LogHandler>
+			<LogAll>false</LogAll>
+			<LogAllName></LogAllName>
+			<WaitExit>0</WaitExit>
+			<WaitInit>0</WaitInit>
+		</Step>
+	</PosExecution>
+</DynamicAnalysis>
+</ViniSandbox>

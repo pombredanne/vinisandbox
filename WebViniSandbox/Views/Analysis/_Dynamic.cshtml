@@ -1,0 +1,21 @@
+﻿@model ViniSandbox.Models.analysis
+
+@{
+    ViewBag.Title = "_Summary";
+}
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_ScanGrid", (object)ViewBag.Scans)
+</div>
+
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_DnsGrid", (object)ViewBag.Dns)
+</div>
+
+<fieldset>
+    <legend>Imagens</legend>
+    @Html.Partial("_Images", (object)ViewBag.Images)
+</fieldset>
+<div class="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_EventsGrid", (object)ViewBag.Events)
+</div>

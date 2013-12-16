@@ -1,0 +1,6 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxTools\bin\Debug\ViniSandboxTools.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxTools\bin\Debug\ViniSandboxTools.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxTools\obj\x86\Debug\ViniSandboxTools.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxTools\obj\x86\Debug\ViniSandboxTools.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxTools\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxTools\obj\x86\Debug\ViniSandboxTools.csprojResolveAssemblyReference.cache

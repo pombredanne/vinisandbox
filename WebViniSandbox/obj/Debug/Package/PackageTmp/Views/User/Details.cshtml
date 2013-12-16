@@ -1,0 +1,36 @@
+﻿@model ViniSandbox.Models.user
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Usuario</legend> 
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.email)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.email)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.name)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.name)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayName("Grupo")
+        </div>
+        <div class="display-field">
+            @Html.DisplayName(Model.admin ? "Administrador" : "Usuario Comun")        
+        </div>
+        <div class="display-label">
+             @Html.DisplayName("Arquivos Enviados")
+        </div>
+        <div class="display-field"> 
+            @Html.ActionLink(Model.files.Count().ToString().ToString(), "Index", new { id_user = Model.id } )               
+        </div>
+    </fieldset>
+}

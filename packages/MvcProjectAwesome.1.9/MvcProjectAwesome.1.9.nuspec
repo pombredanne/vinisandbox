@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MvcProjectAwesome</id>
+    <version>1.9</version>
+    <title>MVC Awesome</title>
+    <authors>Valentin Plamadeala aka Omu aka o</authors>
+    <owners>Valentin Plamadeala aka Omu aka o</owners>
+    <projectUrl>http://www.ASPnetAwesome.com</projectUrl>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/MvcProjectAwesome.1.9.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>contains a rich set of helpers (controls) that you can use to build highly responsive and interactive Ajax-enabled Web applications. 
+www.ASPnetAwesome.com
+http://awesome.codeplex.com
+http://ASPnetAwesome.codeplex.com</description>
+    <summary>contains a rich set of helpers (controls) that you can use to build highly responsive and interactive Ajax-enabled Web applications. These helpers include Autocomplete, AjaxDropdown, Lookup, AjaxRadioList, AjaxCheckBoxList, Confirm Dialog, Popup Form and Pager, more info on http://awesome.codeplex.com</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>asp.net mvc jquery ajax html helper popup radio button checkbox list lookup autocomplete dropdown confirm pager</tags>
+    <dependencies>
+      <dependency id="WebActivator" version="1.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>

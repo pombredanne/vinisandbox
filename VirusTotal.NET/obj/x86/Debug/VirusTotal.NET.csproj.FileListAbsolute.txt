@@ -1,0 +1,20 @@
+C:\Users\Vinicius\Dropbox\TCC Pratico\VirusTotal.NET-master\VirusTotal.NET-master\VirusTotal.NET\bin\Debug\VirusTotal.NET.dll
+C:\Users\Vinicius\Dropbox\TCC Pratico\VirusTotal.NET-master\VirusTotal.NET-master\VirusTotal.NET\bin\Debug\VirusTotal.NET.pdb
+C:\Users\Vinicius\Dropbox\TCC Pratico\VirusTotal.NET-master\VirusTotal.NET-master\VirusTotal.NET\bin\Debug\RestSharp.dll
+C:\Users\Vinicius\Dropbox\TCC Pratico\VirusTotal.NET-master\VirusTotal.NET-master\VirusTotal.NET\bin\Debug\RestSharp.xml
+C:\Users\Vinicius\Dropbox\TCC Pratico\VirusTotal.NET-master\VirusTotal.NET-master\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.dll
+C:\Users\Vinicius\Dropbox\TCC Pratico\VirusTotal.NET-master\VirusTotal.NET-master\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\bin\Debug\VirusTotal.NET.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\bin\Debug\VirusTotal.NET.exe.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\bin\Debug\VirusTotal.NET.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\bin\Debug\VirusTotal.NET.exe.config
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\bin\Debug\VirusTotal.NET.exe
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\bin\Debug\VirusTotal.NET.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.exe
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VirusTotal.NET\obj\x86\Debug\VirusTotal.NET.pdb

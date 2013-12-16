@@ -1,0 +1,12 @@
+﻿@model ViniSandbox.Models.file
+
+@{
+    ViewBag.Title = "Reanalize";
+}
+
+@using (Html.BeginForm())
+{            
+        <h3>Voce realmente deseja reanalisar o arquivo?</h3>        
+        @Html.HiddenFor(model => model.id)    
+}
+@Html.Partial("Details", Model)

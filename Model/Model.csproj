@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD654EEF-8850-4FA8-9EFA-11602B8F4141}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViniSandbox.Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\antiviru.cs" />
+    <Compile Include="Models\antivirus_scan.cs" />
+    <Compile Include="Models\comment.cs" />
+    <Compile Include="Models\dn.cs" />
+    <Compile Include="Models\event.cs" />
+    <Compile Include="Models\export_function.cs" />
+    <Compile Include="Models\file.cs" />
+    <Compile Include="Models\file_properties.cs" />
+    <Compile Include="Models\import_function.cs" />
+    <Compile Include="Models\import_library.cs" />
+    <Compile Include="Models\Mapping\antiviruMap.cs" />
+    <Compile Include="Models\Mapping\antivirus_scanMap.cs" />
+    <Compile Include="Models\Mapping\commentMap.cs" />
+    <Compile Include="Models\Mapping\dnMap.cs" />
+    <Compile Include="Models\Mapping\eventMap.cs" />
+    <Compile Include="Models\Mapping\export_functionMap.cs" />
+    <Compile Include="Models\Mapping\fileMap.cs" />
+    <Compile Include="Models\Mapping\file_propertiesMap.cs" />
+    <Compile Include="Models\Mapping\import_functionMap.cs" />
+    <Compile Include="Models\Mapping\import_libraryMap.cs" />
+    <Compile Include="Models\Mapping\miscellaneouMap.cs" />
+    <Compile Include="Models\Mapping\resourceMap.cs" />
+    <Compile Include="Models\Mapping\result_fileMap.cs" />
+    <Compile Include="Models\Mapping\sectionMap.cs" />
+    <Compile Include="Models\Mapping\stringMap.cs" />
+    <Compile Include="Models\miscellaneou.cs" />
+    <Compile Include="Models\resource.cs" />
+    <Compile Include="Models\result_file.cs" />
+    <Compile Include="Models\section.cs" />
+    <Compile Include="Models\string.cs" />
+    <Compile Include="Models\vinisandboxContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

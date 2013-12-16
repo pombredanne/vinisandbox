@@ -1,0 +1,33 @@
+﻿@using MvcContrib.Pagination;
+@using Omu.Awesome.Mvc.Helpers;
+
+@model IPagination<ViniSandbox.Models.user>
+
+@{
+    ViewBag.Title = "Usuario";
+    ViewBag.RequestPage = Url.Action("Index");
+}
+
+@section Header
+{
+    @Html.Partial("~/Views/Shared/_FormResources.cshtml")
+    @Html.Partial("~/Views/Shared/_GridResources.cshtml")
+}
+
+@(Html.MakePopupForm<WebViniSandbox.Controllers.UserController>(a => a.Create(), title: "Criar Usuario", okText: "Salvar", cancelText: "Cancelar", height: 445, width: 565, successFunction: "atualizaGrid", clientSideValidation: true))
+
+@(Html.MakePopupForm<WebViniSandbox.Controllers.UserController>(a => a.Edit(1), title: "Editar Usuario", okText: "Salvar", cancelText: "Cancelar", height: 445, width: 564, successFunction: "atualizaGrid"))
+    
+@{Dictionary<string, string> botoes = new Dictionary<string, string>(); botoes.Add("Fechar", "function () { $(this).dialog('close'); }");}
+@(Html.MakePopup<WebViniSandbox.Controllers.UserController>(a => a.Details(1), title: "Detalhes Usuario", height: 400, width: 390, buttons: botoes))
+
+@(Html.MakePopupForm<WebViniSandbox.Controllers.UserController>(a => a.Delete(1), title: "Deletar Usuario", okText: "Deletar", cancelText: "Cancelar", height: 400, width: 390, successFunction: "atualizaGrid"))
+
+@Html.Partial("_Searcher")
+<div id="botoes">
+    @(Html.PopupFormActionLink<WebViniSandbox.Controllers.UserController>(a => a.Create(), text: "Novo", htmlAttributes: new { @class = "btn" }))    
+</div>
+<div id="clearfix"></div>
+<div id="mvccontribGridWrapper" style="margin-top:10px;">
+    @Html.Partial("_Grid")    
+</div>

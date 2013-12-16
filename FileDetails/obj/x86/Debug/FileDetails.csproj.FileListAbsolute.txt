@@ -1,0 +1,10 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FileDetails\bin\Debug\FileDetails.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FileDetails\bin\Debug\FileDetails.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FileDetails\obj\x86\Debug\FileDetails.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FileDetails\obj\x86\Debug\FileDetails.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FileDetails\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\Tools\FileDetails\FileDetails.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\Tools\FileDetails\FileDetails.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\FileDetails\obj\x86\Debug\FileDetails.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\FileDetails\obj\x86\Debug\FileDetails.exe
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\FileDetails\obj\x86\Debug\FileDetails.pdb

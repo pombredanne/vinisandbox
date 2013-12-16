@@ -1,0 +1,24 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxDAL.dll.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxDAL.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\EntityFramework.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\MySql.Data.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\bin\Debug\EntityFramework.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\obj\Debug\ViniSandboxDAL.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\obj\Debug\ViniSandboxDAL.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandboxDAL\obj\Debug\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxDAL.dll.config
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxDAL.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\EntityFramework.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\MySql.Data.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\bin\Debug\EntityFramework.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\obj\Debug\ViniSandboxDAL.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\obj\Debug\ViniSandboxDAL.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandboxDAL\obj\Debug\ViniSandboxDAL.pdb

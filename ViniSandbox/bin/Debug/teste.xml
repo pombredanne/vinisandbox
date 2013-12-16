@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ViniSandbox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<StaticAnalysis>
+		<Steps>
+			<Step>
+				<Args>Args</Args>
+				<LogPath>as</LogPath>
+				<LogHandler>hand</LogHandler>
+				<LogAll>false</LogAll>
+				<LogAllName>sd</LogAllName>
+				<WaitExit>0</WaitExit>
+				<WaitInit>0</WaitInit>
+			</Step>
+		</Steps>
+	</StaticAnalysis>
+	<DynamicAnalysis>
+		<Virtualization>
+			<Domain>doma</Domain>
+		</Virtualization>
+		<PreExecution>
+			<Steps>
+				<Step>
+				<Args>Args</Args>
+				<LogPath>as</LogPath>
+				<LogHandler>hand</LogHandler>
+				<LogAll>false</LogAll>
+				<LogAllName>sd</LogAllName>
+				<WaitExit>0</WaitExit>
+				<WaitInit>0</WaitInit>
+				</Step>
+			</Steps>
+		</PreExecution>
+		<PosExecution>
+			<Steps>
+				<Step>
+					<Args>Args</Args>
+					<LogPath>as</LogPath>
+					<LogHandler>hand</LogHandler>
+					<LogAll>false</LogAll>
+					<LogAllName>sd</LogAllName>
+					<WaitExit>0</WaitExit>
+					<WaitInit>0</WaitInit>
+				</Step>
+			</Steps>
+		</PosExecution>
+	</DynamicAnalysis>
+</ViniSandbox>

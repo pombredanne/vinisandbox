@@ -1,0 +1,10 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\obj\Debug\MutexMonitorInject.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\bin\Debug\MutexMonitorInject.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\bin\Debug\MutexMonitorInject.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\bin\Debug\EasyHook.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\bin\Debug\MutexMonitor.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\bin\Debug\MutexMonitor.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\obj\Debug\MutexMonitorInject.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitorInject\obj\Debug\MutexMonitorInject.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\bin\Debug\MutexMonitorInject.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\MutexMonitor\bin\Debug\MutexMonitorInject.pdb

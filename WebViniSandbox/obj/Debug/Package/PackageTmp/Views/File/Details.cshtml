@@ -1,0 +1,75 @@
+﻿@model ViniSandbox.Models.file
+
+<fieldset>
+    <legend>Arquivo</legend>
+    @if (ViewBag.isFile != null && ViewBag.isFile)
+    {
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.name)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.name)
+        </div>
+    }
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.file_detail.md5)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.file_detail.md5)
+    </div>
+    @if (!String.IsNullOrEmpty(Model.file_detail.ssdeep))
+    {
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.file_detail.ssdeep)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.file_detail.ssdeep)
+        </div>
+    }
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.source)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.source)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.date)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.date)
+    </div>
+    @if (!String.IsNullOrEmpty(Model.file_detail.type))
+    {
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.file_detail.type)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.file_detail.type)
+        </div>
+    }
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.file_detail.analyzed)
+    </div>
+    <div class="display-field">
+        @(Model.file_detail.analyzed.HasValue && Model.file_detail.analyzed.Value?"Não":"Sim")
+    </div>
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.file_detail.antivirus_sended)
+    </div>
+    <div class="display-field">
+        @(Model.file_detail.antivirus_sended.HasValue && Model.file_detail.antivirus_sended.Value?"Sim":"Não")
+    </div>
+    <div class="display-label">
+         Arquivos Semelhantes
+    </div>
+    <div class="display-field">
+        @Html.ActionLink(Model.file_detail.files.Count().ToString(), "Index", new { id_file_det = Model.file_detail.id } )        
+    </div>
+    <div class="display-label">
+         Qtde de Analises
+    </div>
+    <div class="display-field">
+        @Html.ActionLink(Model.file_detail.analyses.Count().ToString(), "Index", new { id_file_det = Model.file_detail.id } )        
+    </div>
+</fieldset>

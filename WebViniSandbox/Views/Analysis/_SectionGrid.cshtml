@@ -1,0 +1,11 @@
+﻿@using MvcContrib.UI.Grid;
+@using MvcContrib.Pagination;
+@using MvcContrib.Shp.UI.Themed.Pager;
+
+@model IPagination<ViniSandbox.Models.section>
+
+<div class="mc-grid ui-widget ui-widget-content ui-corner-all">
+    <div class="mc-grid-header ui-widget-header ui-corner-top">Funções Exportadas</div>        
+    @Html.MvcContrib().Grid(Model).WithModel(new WebViniSandbox.Models.GridModel.SectionGridModel()).Sort(ViewData["sort"] as GridSortOptions).Attributes(id => "grid", style => "width: 100%;")
+    @Html.MvcContrib().PagerThemed(Model)
+</div>

@@ -1,0 +1,30 @@
+﻿@using MvcContrib.Pagination;
+@using Omu.Awesome.Mvc.Helpers;
+
+@model IPagination<ViniSandbox.Models.analysis>
+
+@{
+    ViewBag.Title = "Análises";
+    ViewBag.RequestPage = Url.Action("Index");
+}
+
+@section Header
+{
+    @Html.Partial("~/Views/Shared/_FormResources.cshtml")
+    @Html.Partial("~/Views/Shared/_GridResources.cshtml")
+}
+
+@if(ViewBag.id_file != null)
+{
+    <input type="hidden" id="id_file" name="id_file" value="@ViewBag.id_file" />
+}
+
+<a href="javascript:void(0)" id="disparaSearcher"></a>
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.Malicious(1, true, true), title: "Malicious", okText: "Sim", cancelText: "Não", height: 600, width: 600, successFunction: "atualizaGrid", clientSideValidation: false))
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.SendAntivirus(1, true), title: "Enviar Arquivo", okText: "Enviar", cancelText: "Cancelar", height: 600, width: 600, successFunction: "atualizaGrid", clientSideValidation: false))
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.Reanalize(1, true), title: "Reanalisar Arquivo", okText: "Sim", cancelText: "Não", height: 600, width: 600, successFunction: "atualizaGrid", clientSideValidation: false))
+
+<div id="clearfix"></div>
+<div id="mvccontribGridWrapper" style="margin-top:10px;">    
+    @Html.Partial("_Grid")
+</div>

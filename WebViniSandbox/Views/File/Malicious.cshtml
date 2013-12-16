@@ -1,0 +1,22 @@
+﻿@model ViniSandbox.Models.file
+
+@{
+    ViewBag.Title = "Malicious";
+}
+@using (Html.BeginForm())
+{
+    if (ViewBag.isChecked != null)
+    {
+        if (!ViewBag.isChecked)
+        {
+            <h3>Voce deseja marcar este item como malicioso?</h3>
+        }
+        else
+        {
+            <h3>Voce deseja desmarcar este item como malicioso?</h3>
+        }
+        @Html.Hidden("isChecked", (object)ViewBag.isChecked)
+        @Html.HiddenFor(model => model.id)
+    }
+}  
+@Html.Partial("Details", Model)

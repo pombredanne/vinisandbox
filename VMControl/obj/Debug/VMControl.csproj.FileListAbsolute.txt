@@ -1,0 +1,15 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\obj\Debug\VMControl.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\bin\Debug\VMControl.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\bin\Debug\VMControl.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\bin\Debug\VBox.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\bin\Debug\ViniSandbox.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\bin\Debug\ViniSandbox.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\obj\Debug\VMControl.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\VMControl\obj\Debug\VMControl.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\VMControl.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\VMControl.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\VMControl.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\VMControl.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VMControl\obj\Debug\VMControl.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VMControl\obj\Debug\VMControl.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\VMControl\obj\Debug\VMControl.pdb

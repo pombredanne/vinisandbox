@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vinisandboxModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="vinisandboxModelStoreContainer">
+    <EntitySet Name="antivirus" EntityType="vinisandboxModel.Store.antivirus" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="antivirus_scan" EntityType="vinisandboxModel.Store.antivirus_scan" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="comment" EntityType="vinisandboxModel.Store.comment" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="dns" EntityType="vinisandboxModel.Store.dns" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="event" EntityType="vinisandboxModel.Store.event" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="export_function" EntityType="vinisandboxModel.Store.export_function" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="file" EntityType="vinisandboxModel.Store.file" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="file_properties" EntityType="vinisandboxModel.Store.file_properties" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="import_function" EntityType="vinisandboxModel.Store.import_function" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="import_library" EntityType="vinisandboxModel.Store.import_library" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="miscellaneous" EntityType="vinisandboxModel.Store.miscellaneous" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="resource" EntityType="vinisandboxModel.Store.resource" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="result_file" EntityType="vinisandboxModel.Store.result_file" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="section" EntityType="vinisandboxModel.Store.section" store:Type="Tables" Schema="vinisandbox" />
+    <EntitySet Name="string" EntityType="vinisandboxModel.Store.string" store:Type="Tables" Schema="vinisandbox" />
+    <AssociationSet Name="fk_antivirus_scan_antivirus" Association="vinisandboxModel.Store.fk_antivirus_scan_antivirus">
+      <End Role="antivirus" EntitySet="antivirus" />
+      <End Role="antivirus_scan" EntitySet="antivirus_scan" />
+    </AssociationSet>
+    <AssociationSet Name="fk_antivirus_scan_file_properties" Association="vinisandboxModel.Store.fk_antivirus_scan_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="antivirus_scan" EntitySet="antivirus_scan" />
+    </AssociationSet>
+    <AssociationSet Name="fk_comment_file_properties" Association="vinisandboxModel.Store.fk_comment_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="comment" EntitySet="comment" />
+    </AssociationSet>
+    <AssociationSet Name="fk_dns_file_properties" Association="vinisandboxModel.Store.fk_dns_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="dns" EntitySet="dns" />
+    </AssociationSet>
+    <AssociationSet Name="fk_event_file_properties" Association="vinisandboxModel.Store.fk_event_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="event" EntitySet="event" />
+    </AssociationSet>
+    <AssociationSet Name="fk_export_function_file_properties" Association="vinisandboxModel.Store.fk_export_function_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="export_function" EntitySet="export_function" />
+    </AssociationSet>
+    <AssociationSet Name="fk_file_file_properties" Association="vinisandboxModel.Store.fk_file_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="file" EntitySet="file" />
+    </AssociationSet>
+    <AssociationSet Name="fk_import_library" Association="vinisandboxModel.Store.fk_import_library">
+      <End Role="import_library" EntitySet="import_library" />
+      <End Role="import_function" EntitySet="import_function" />
+    </AssociationSet>
+    <AssociationSet Name="fk_miscellaneous_file_properties" Association="vinisandboxModel.Store.fk_miscellaneous_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="miscellaneous" EntitySet="miscellaneous" />
+    </AssociationSet>
+    <AssociationSet Name="fk_resource_file_properties" Association="vinisandboxModel.Store.fk_resource_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="resource" EntitySet="resource" />
+    </AssociationSet>
+    <AssociationSet Name="fk_result_file_file_properties" Association="vinisandboxModel.Store.fk_result_file_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="result_file" EntitySet="result_file" />
+    </AssociationSet>
+    <AssociationSet Name="fk_section_file_properties" Association="vinisandboxModel.Store.fk_section_file_properties">
+      <End Role="file_properties" EntitySet="file_properties" />
+      <End Role="section" EntitySet="section" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="antivirus">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="antivirus_scan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="result" Type="varchar" MaxLength="70" />
+    <Property Name="av_version" Type="varchar" MaxLength="45" />
+    <Property Name="av_last_update" Type="date" />
+    <Property Name="id_antivirus" Type="int" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="comment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="source" Type="enum" />
+    <Property Name="comment" Type="varchar" MaxLength="300" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="dns">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="domain" Type="varchar" MaxLength="70" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="event">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="pid" Type="int" />
+    <Property Name="process_name" Type="varchar" MaxLength="255" />
+    <Property Name="time_span" Type="timestamp" />
+    <Property Name="operation" Type="varchar" MaxLength="45" />
+    <Property Name="path" Type="varchar" MaxLength="45" />
+    <Property Name="result" Type="varchar" MaxLength="45" />
+    <Property Name="detail" Type="varchar" MaxLength="45" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="export_function">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" MaxLength="45" />
+    <Property Name="file_properties_id" Type="int" />
+  </EntityType>
+  <EntityType Name="file">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" MaxLength="255" />
+    <Property Name="source" Type="enum" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="file_properties">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="file" Type="blob" />
+    <Property Name="file_type" Type="varchar" MaxLength="45" />
+    <Property Name="architecture" Type="varchar" MaxLength="20" />
+    <Property Name="md5" Type="char" MaxLength="32" />
+    <Property Name="sha1" Type="char" MaxLength="44" />
+    <Property Name="ssdeep" Type="varchar" MaxLength="150" />
+    <Property Name="build_date" Type="datetime" />
+    <Property Name="language" Type="varchar" MaxLength="30" />
+    <Property Name="packer" Type="varchar" MaxLength="70" />
+    <Property Name="entry_point" Type="int" />
+    <Property Name="malicious" Type="bit" />
+    <Property Name="status" Type="enum" />
+  </EntityType>
+  <EntityType Name="import_function">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="offset" Type="int" />
+    <Property Name="name" Type="varchar" MaxLength="45" />
+    <Property Name="import_library_id" Type="int" />
+  </EntityType>
+  <EntityType Name="import_library">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="miscellaneous">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="type" Type="enum" />
+    <Property Name="description" Type="varchar" MaxLength="250" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="resource">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="size" Type="int" />
+    <Property Name="language" Type="varchar" MaxLength="30" />
+    <Property Name="type" Type="enum" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="result_file">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="data" Type="blob" />
+    <Property Name="program_name" Type="varchar" MaxLength="45" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="section">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" MaxLength="8" />
+    <Property Name="virtual_address" Type="int" />
+    <Property Name="virtual_size" Type="int" />
+    <Property Name="raw_size" Type="int" />
+    <Property Name="md5" Type="char" MaxLength="25" />
+    <Property Name="suspicious" Type="bit" />
+    <Property Name="id_file_properties" Type="int" />
+  </EntityType>
+  <EntityType Name="string">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="string" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="fk_antivirus_scan_antivirus">
+    <End Role="antivirus" Type="vinisandboxModel.Store.antivirus" Multiplicity="0..1" />
+    <End Role="antivirus_scan" Type="vinisandboxModel.Store.antivirus_scan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="antivirus">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="antivirus_scan">
+        <PropertyRef Name="id_antivirus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_antivirus_scan_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="antivirus_scan" Type="vinisandboxModel.Store.antivirus_scan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="antivirus_scan">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_comment_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="comment" Type="vinisandboxModel.Store.comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="comment">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_dns_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="dns" Type="vinisandboxModel.Store.dns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="dns">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_event_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="event" Type="vinisandboxModel.Store.event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="event">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_export_function_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="export_function" Type="vinisandboxModel.Store.export_function" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="export_function">
+        <PropertyRef Name="file_properties_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_file_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="file" Type="vinisandboxModel.Store.file" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="file">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_import_library">
+    <End Role="import_library" Type="vinisandboxModel.Store.import_library" Multiplicity="0..1" />
+    <End Role="import_function" Type="vinisandboxModel.Store.import_function" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="import_library">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="import_function">
+        <PropertyRef Name="import_library_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_miscellaneous_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="miscellaneous" Type="vinisandboxModel.Store.miscellaneous" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="miscellaneous">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_resource_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="resource" Type="vinisandboxModel.Store.resource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="resource">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_result_file_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="result_file" Type="vinisandboxModel.Store.result_file" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="result_file">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_section_file_properties">
+    <End Role="file_properties" Type="vinisandboxModel.Store.file_properties" Multiplicity="0..1" />
+    <End Role="section" Type="vinisandboxModel.Store.section" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="file_properties">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="section">
+        <PropertyRef Name="id_file_properties" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

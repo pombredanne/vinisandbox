@@ -1,0 +1,36 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandbox.exe.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandbox.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandbox.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\EntityFramework.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\MySql.Data.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\VBox.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxDAL.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\EntityFramework.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.Properties.Resources.resources
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandbox.exe.config
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.exe
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandbox.exe
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandbox.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\EntityFramework.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\MySql.Data.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\Rug.Cmd.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\VBox.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxDAL.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\EntityFramework.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.Properties.Resources.resources
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\obj\Debug\ViniSandbox.csproj.GenerateResource.Cache

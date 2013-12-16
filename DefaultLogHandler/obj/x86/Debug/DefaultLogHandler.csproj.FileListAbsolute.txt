@@ -1,0 +1,19 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\DefaultLogHandler.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\DefaultLogHandler.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\DefaultLogHandler.exe.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\ViniSandbox.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\ViniSandbox.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\ViniSandboxPoco.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\bin\Debug\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\DefaultLogHandler.dll.config
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\DefaultLogHandler.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ViniSandbox\bin\Debug\DefaultLogHandler.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\obj\x86\Debug\DefaultLogHandler.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\obj\x86\Debug\DefaultLogHandler.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\DefaultLogHandler\obj\x86\Debug\DefaultLogHandler.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\DefaultLogHandler.dll.config
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\DefaultLogHandler.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\ViniSandbox\bin\Debug\DefaultLogHandler.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\DefaultLogHandler\obj\x86\Debug\DefaultLogHandler.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\DefaultLogHandler\obj\x86\Debug\DefaultLogHandler.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\DefaultLogHandler\obj\x86\Debug\DefaultLogHandler.pdb

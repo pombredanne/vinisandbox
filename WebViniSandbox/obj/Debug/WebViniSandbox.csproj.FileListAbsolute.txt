@@ -1,0 +1,134 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\obj\Debug\WebViniSandbox.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebViniSandbox.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebViniSandbox.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Antlr3.Runtime.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.Core.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\EntityFramework.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Newtonsoft.Json.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Net.Http.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Net.Http.Formatting.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Net.Http.WebRequest.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Helpers.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Http.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Http.WebHost.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Mvc.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Optimization.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Razor.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\ViniSandboxDAL.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebGrease.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebMatrix.Data.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebMatrix.WebData.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\ViniSandboxPoco.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\EntityFramework.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Newtonsoft.Json.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Net.Http.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Net.Http.Formatting.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Net.Http.WebRequest.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Helpers.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Http.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Http.WebHost.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Mvc.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.Razor.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebMatrix.Data.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebMatrix.WebData.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.Core.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\obj\Debug\WebViniSandbox.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\obj\Debug\WebViniSandbox.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Omu.Awesome.Core.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Omu.Awesome.Mvc.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebActivator.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\WebActivator.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\MySql.Data.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\MySql.Data.Entity.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\MvcContrib.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\MvcContrib.Shp.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Ionic.Zip.dll
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\WebViniSandbox\bin\Ionic.Zip.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebViniSandbox.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebViniSandbox.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Antlr3.Runtime.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.Core.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\EntityFramework.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Ionic.Zip.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\MvcContrib.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\MvcContrib.Shp.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\MySql.Data.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\MySql.Data.Entity.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Newtonsoft.Json.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Omu.Awesome.Core.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Omu.Awesome.Mvc.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Net.Http.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Net.Http.Formatting.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Net.Http.WebRequest.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Helpers.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Http.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Http.WebHost.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Mvc.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Optimization.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Razor.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\ViniSandboxDAL.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\ViniSandboxPoco.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebActivator.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebGrease.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebMatrix.Data.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebMatrix.WebData.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\ViniSandboxDAL.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\ViniSandboxPoco.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Ionic.Zip.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\EntityFramework.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Newtonsoft.Json.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Net.Http.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Net.Http.Formatting.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Net.Http.WebRequest.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Helpers.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Http.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Http.WebHost.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Mvc.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.Razor.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebActivator.pdb
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebMatrix.Data.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\WebMatrix.WebData.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.Core.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\obj\Debug\WebViniSandbox.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\obj\Debug\WebViniSandbox.dll
+C:\Users\Vinicius\Dropbox\TCC\TCC II\Pratico\ViniSandbox\WebViniSandbox\obj\Debug\WebViniSandbox.pdb

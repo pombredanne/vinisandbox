@@ -1,0 +1,7 @@
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\bin\Debug\ProcMonLogGerator.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\bin\Debug\ProcMonLogGerator.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\obj\x86\Debug\ProcMonLogGerator.Properties.Resources.resources
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\obj\x86\Debug\ProcMonLogGerator.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\obj\x86\Debug\ProcMonLogGerator.exe
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\obj\x86\Debug\ProcMonLogGerator.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2010\Projects\ViniSandbox\ProcMonLogGerator\obj\x86\Debug\ProcMonLogGerator.csprojResolveAssemblyReference.cache

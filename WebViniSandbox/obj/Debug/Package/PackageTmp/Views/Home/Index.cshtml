@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@*
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+            </hgroup>
+        </div>
+    </section>
+}*@
+<h3>Envie sua amostra para análise:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Através do site</h5>
+        Faça o seu cadastro e envie seus arquivos para análise
+        <a href="/File/Create">Aqui…</a>
+    </li>
+
+    <li class="two">
+        <h5>Pelo seu honeypot</h5>
+        Faça seu cadastro e envie seus arquivos por POST na página http://vinisandbox.no-ip.org:8080/File/ProgReceive com os seguintes argumentos: file, email e password.
+    </li>
+</ol>

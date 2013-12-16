@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Rug.Cmd</id>
+    <version>1.2.2</version>
+    <title>Rug.Cmd - Command Line Parser and Console Application Framework</title>
+    <authors>Phill Tew</authors>
+    <owners>Phill Tew</owners>
+    <licenseUrl>http://cmd.codeplex.com/license</licenseUrl>
+    <projectUrl>http://cmd.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Rugland Console Framework is a collection of classes to enable the fast and consistent development of .NET console applications. Parse command line arguments and write your applications usage.</description>
+    <summary>Rugland Console Framework is a collection of classes to enable the fast and consistent development of .NET console applications. Parse command line arguments and write your applications usage.</summary>
+    <releaseNotes>This version does not have the Theme Designer Application or resource strings for languages other than english. please go to the project page if you require these things.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <language />
+    <tags>Console Parse Command Line Arguments Args</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

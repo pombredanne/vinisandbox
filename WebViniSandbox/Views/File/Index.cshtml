@@ -1,0 +1,56 @@
+﻿@using MvcContrib.Pagination;
+@using Omu.Awesome.Mvc.Helpers;
+
+@model IPagination<ViniSandbox.Models.file>
+
+@{
+    ViewBag.Title = "Arquivos";
+    ViewBag.RequestPage = Url.Action("Index");
+}
+
+@section Header
+{
+    @Html.Partial("~/Views/Shared/_FormResources.cshtml")
+    @Html.Partial("~/Views/Shared/_GridResources.cshtml")
+}
+    
+@{Dictionary<string, string> botoes = new Dictionary<string, string>(); botoes.Add("Fechar", "function () { $(this).dialog('close'); }");}
+@(Html.MakePopup<WebViniSandbox.Controllers.FileController>(a => a.Details(true, 1), title: "Detalhes do Arquivo", height: 600, width: 600, buttons: botoes))
+
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.Malicious(1, true, true), title: "Malicious", okText: "Sim", cancelText: "Não", height: 600, width: 600, successFunction: "atualizaGrid", clientSideValidation: false))
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.SendAntivirus(1, true), title: "Enviar Arquivo", okText: "Enviar", cancelText: "Cancelar", height: 600, width: 600, successFunction: "atualizaGrid", clientSideValidation: false))
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.Reanalize(1, true), title: "Reanalisar Arquivo", okText: "Sim", cancelText: "Não", height: 600, width: 600, successFunction: "atualizaGrid", clientSideValidation: false))
+@(Html.MakePopupForm<WebViniSandbox.Controllers.FileController>(a => a.Create(), title: "Enviar Arquivo", okText: "Enviar", cancelText: "Cancelar", height: 260, width: 450, successFunction: "atualizaGrid", clientSideValidation: true))
+
+<div id="filtro">
+    <b>
+        @Html.Label("Filtro: ")
+    </b>
+    @Html.TextBox("searcher")
+    @Html.CheckBox("owner", false) Somente os meus
+    @Html.CheckBox("group", false) Agrupar
+    <a href="javascript:void(0)" id="disparaSearcher" class="btn">Buscar</a>   
+</div>
+
+@if(ViewBag.id_user != null)
+{
+    <input type="hidden" id="id_user" name="id_user" value="@ViewBag.id_user" />
+}
+@if (ViewBag.id_file_detail != null)
+{
+    <input type="hidden" id="id_file_detail" name="id_file_detail" value="@ViewBag.id_file_detail" />
+}
+<div id="botoes">
+    @(Html.PopupFormActionLink<WebViniSandbox.Controllers.FileController>(a => a.Create(), text: "Novo", htmlAttributes: new { @class = "btn" }))    
+</div>
+<div id="clearfix"></div>
+<div id="mvccontribGridWrapper" style="margin-top:10px;">
+    @if (ViewBag.data is IPagination<ViniSandbox.Models.file>)
+    {
+        Html.RenderPartial("_GridFile");
+    }
+    else
+    {
+        Html.RenderPartial("_GridFileDet");
+    }   
+</div>

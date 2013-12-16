@@ -1,0 +1,14 @@
+﻿@model ViniSandbox.Models.file
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>        
+        <div class="editor-label">
+            @Html.DisplayName("Selecione o Arquivo")
+        </div>
+        <div class="editor-field">
+            <input type="file" id="file" name="file" value="Enviar" />            
+        </div>
+    </fieldset>
+}

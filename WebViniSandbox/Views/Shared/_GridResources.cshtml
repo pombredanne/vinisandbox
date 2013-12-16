@@ -1,0 +1,18 @@
+﻿    <link href="@Url.Content("~/Content/mvccontrib.grid.css")" type="text/css" rel="stylesheet" />
+    <script src="@Url.Content("~/Scripts/jquery.mvccontrib.grid.js")" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {       
+        var options = {
+            url: "@ViewBag.RequestPage",
+            alignRight: true,
+            addRowOverState: true,
+            addSelectedState: false
+        };
+        $("#mvccontribGridWrapper").mvccontribGrid(options);
+        $("a.btn").button();
+    });
+    function atualizaGrid() {
+        $('#disparaSearcher').trigger('click');
+    }
+</script>

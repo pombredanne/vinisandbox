@@ -1,0 +1,11 @@
+﻿@model ViniSandbox.Models.file
+
+@{
+    ViewBag.Title = "Send";
+}
+@using (Html.BeginForm())
+{            
+        <h3>Voce realmente deseja enviar uma amostra desse arquivo para as empresas de antivirus?</h3>        
+        @Html.HiddenFor(model => model.id)    
+}  
+@Html.Partial("Details", Model)

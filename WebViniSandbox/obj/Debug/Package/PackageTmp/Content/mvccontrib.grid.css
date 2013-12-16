@@ -1,0 +1,19 @@
+﻿.mc-grid { padding: .4em; background-image: none; font-size: 1.0em !important; }
+.mc-grid .mc-grid-content { width: 100%; border-collapse: collapse; }
+.mc-grid table tbody td, .mc-grid .mc-grid-header, .mc-grid table thead a { padding: .4em; }
+.mc-grid table tbody tr.empty-results td { padding: 0; }
+.mc-grid table tbody tr.empty-results td div.ui-state-error { padding: .4em; }
+.mc-grid table tbody td.mc-grid-right, .mc-grid table tbody td.mc-grid-left { text-align: right; font-weight: normal; }
+.mc-grid table tbody td.mc-grid-left { text-align: left; }
+.mc-grid .mc-grid-header, .mc-grid .mc-grid-footer { padding: .8em .4em; text-align: center; }
+.mc-grid .mc-grid-footer { /*background-image: none;*/ font-weight: normal; text-align: left; }
+.mc-grid table thead a { display: block; }
+.mc-grid .ui-icon { float: right; }
+
+/* prevents the grid rows from bolding on hover */
+.mc-grid table.grid tbody tr td.ui-state-hover, .mc-grid table.grid tbody tr td.ui-state-active { font-weight: normal; }
+
+.mc-grid .mc-grid-pager { float: right; }
+.mc-grid .mc-grid-paging { float: left; width: 16px; height: 16px; margin: 0 1px; }
+.mc-grid .mc-grid-page-size { float: left; margin: 0 4px; line-height: 16px; }
+.mc-grid .mc-grid-pager-results { }
